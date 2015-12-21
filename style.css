@@ -462,5 +462,121 @@ html, body{
     font-family: "Lato", sans-serif;
 }
 
-/* 4.0 - INTRO SECTION
+h1, h3{
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    color: #cc3838;
+}
+
+h1{
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+h2{
+    font-family: "Vollkorn", serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 0;
+}
+
+
+/* 4.0 - PAGE
 ----------------------------------------------- */
+
+/* 4.1 - #ZEN-INTRO
+----------------------------------------------- */
+header{
+    text-align: center;    
+}
+
+#zen-summary{
+    text-align: center;
+}
+#zen-preamble{
+    background: #fff;
+    max-width: 1000px;
+    width: 95%;
+    margin: 1em auto;
+    padding: 1em;
+}
+
+/* 4.2 - #ZEN-SUPPORTING
+----------------------------------------------- */
+
+#zen-explanation, #zen-participation, #zen-benefits, #zen-requirements{
+    background: #fff;
+    max-width: 1000px;
+    width: 95%;
+    margin: 1em auto;
+    padding: 1em;
+}
+
+footer{
+    text-align: center;
+    margin: 1em 0;
+}
+
+footer a{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: 1px solid #333;
+    line-height: 60px;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    transition:all 0.5s ease-out;
+}
+
+footer a:hover{
+    background: rgba(0, 0, 0, 0);
+    color: #000;
+    transform:rotate(360deg);
+}
+
+/* 4.3 - .SIDEBAR
+----------------------------------------------- */
+.sidebar{
+    background: #cc3838;
+    width: inherit;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 95%;
+}
+
+#design-selection, #design-archives, #zen-resources{
+    width: 30%;
+    margin-right: 3.3%;
+    float: left;
+}
+
+.sidebar h3{
+    color: #fff;
+}
+
+.sidebar ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar a{
+    color: #fff;
+}
+
+.designer-name{
+    font-family: "Vollkorn", serif;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.designer-name:hover{
+    text-decoration: underline;
+}
