@@ -499,6 +499,8 @@ header{
     width: 95%;
     margin: 1em auto;
     padding: 1em;
+	border-left: 3px solid #cc3838;
+	position: relative;
 }
 
 /* 4.2 - #ZEN-SUPPORTING
@@ -510,6 +512,8 @@ header{
     width: 95%;
     margin: 1em auto;
     padding: 1em;
+	border-left: 3px solid #cc3838;
+	position: relative;
 }
 
 footer{
